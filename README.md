@@ -6,14 +6,31 @@
 
 ## 🚀 Features
 
-- ✅ **Local AI-Powered Evaluation** (via [Ollama](https://ollama.com/))
-- 📄 **Resume Parsing from PDF**
-- 🔍 **Job Description Matching Percentage**
-- ❗ **Missing Keywords Detection**
-- 📄 **Profile Summary Generation**
-- 🧠 **100% Offline** – No external APIs or data leaks
+### ✅ Local AI-Powered Evaluation (via Ollama)
+Harness the power of **Meta's LLaMA 3** large language model locally using [**Ollama**](https://ollama.com/), an open-source tool that lets you run powerful LLMs on your own machine. No internet connection required. Your data never leaves your system – ensuring **maximum privacy** and **zero cost**.
+
+### 📄 Resume Parsing from PDF
+Upload your resume in `.pdf` format and the app automatically extracts its text using **PyPDF2**. This enables automated content extraction for analysis without requiring you to copy and paste.
+
+### 🔍 Job Description Matching Percentage
+The app uses the local LLM to deeply compare your resume against a provided **Job Description**, evaluating how well your profile matches it. It assigns a **percentage match** to help you gauge how aligned your resume is with the JD.
+
+### ❗ Missing Keywords Detection
+Detects and lists **important keywords missing** from your resume based on the JD – helping you identify skills, tools, or terminology you may need to add to improve your chances with ATS systems or recruiters.
+
+### 📄 Profile Summary Generation
+Generates a concise and insightful **Profile Summary** that you can directly use or adapt for your resume or LinkedIn profile. This summary is personalized based on your resume content and the job you’re targeting.
+
+### 🧠 100% Offline – No External APIs or Data Leaks
+Unlike cloud-based tools like OpenAI or Google Gemini, this app runs **fully offline**. It uses Ollama and LLaMA 3 locally, meaning:
+- 💸 **No API costs**
+- 🔒 **No risk of data sharing**
+- 🧠 **Full control of your resume and job data**
 
 ---
+
+With this tool, you're using **cutting-edge local AI** to gain a competitive edge in job applications – all while preserving your privacy and saving money!
+
 
 ## 📸 Preview
 
