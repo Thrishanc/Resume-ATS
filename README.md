@@ -17,9 +17,14 @@
 
 ## 📸 Preview
 
-> *(Add a screenshot here after running your app and taking a snapshot of the UI)*
+![App Preview](assets/preview.png)
 
-![app-preview](https://github.com/Thrishanc/Resume-ATS/assets/preview-image-placeholder.png)
+After launching the app, you’ll see a simple interface:
+- 📌 **Paste the Job Description** into the text area.
+- 📎 **Upload your resume** (PDF format only).
+- Click **🔍 Analyze Resume** to evaluate your resume against the job description.
+
+The app runs fully locally using LLaMA3 via Ollama and processes the input in real-time.
 
 ---
 
@@ -29,6 +34,19 @@
 - 🦙 [Ollama](https://ollama.com/) + LLaMA3
 - 📚 PyPDF2
 - 🌐 Streamlit
+
+---
+
+## 🧾 Sample Output
+
+![Sample Output](assets/output.png)
+
+Once analyzed, the tool will show:
+- 🔍 **Job Description Match** – how well your resume aligns with the job description (in %).
+- ❗ **Missing Keywords** – important terms or skills missing in your resume that appear in the job description.
+- 📄 **Profile Summary** – a short AI-generated overview of your profile strengths and gaps.
+
+You can also expand/collapse sections and **download the analysis as a `.json`** file.
 
 ---
 
@@ -73,18 +91,6 @@ Resume-ATS/
 ├── requirements.txt      # Python dependencies
 ├── .gitignore
 └── README.md             # You're here!
-```
-
----
-
-## 📌 Sample Output
-
-```json
-{
-  "Job Description Match": "85%",
-  "MissingKeywords": ["Python", "Docker"],
-  "Profile Summary": "An experienced developer with strong backend skills, but missing cloud and container experience."
-}
 ```
 
 ---
