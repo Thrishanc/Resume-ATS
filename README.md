@@ -112,15 +112,10 @@ Resume-ATS/
 
 ---
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
 
 ## 🙋‍♂️ Author
 
-Made with ❤️ by [Thrishanc](https://github.com/Thrishanc)
+Made by [Thrishanc](https://github.com/Thrishanc)
 
 ---
 
